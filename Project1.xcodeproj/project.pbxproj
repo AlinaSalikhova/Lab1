@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B894126A222EA2E50020190B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8941269222EA2E50020190B /* main.cpp */; };
+		B8941277222EA49F0020190B /* SSE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8941275222EA49F0020190B /* SSE.cpp */; };
+		B894127B222EA5150020190B /* TIMER.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8941279222EA5150020190B /* TIMER.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		B8941266222EA2E50020190B /* Project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8941269222EA2E50020190B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B8941275222EA49F0020190B /* SSE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SSE.cpp; sourceTree = "<group>"; };
+		B8941278222EA4D50020190B /* TIMER.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIMER.h; sourceTree = "<group>"; };
+		B8941279222EA5150020190B /* TIMER.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TIMER.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		B8941268222EA2E50020190B /* Project1 */ = {
 			isa = PBXGroup;
 			children = (
-				B8941269222EA2E50020190B /* main.cpp */,
+				B8941275222EA49F0020190B /* SSE.cpp */,
+				B8941278222EA4D50020190B /* TIMER.h */,
+				B8941279222EA5150020190B /* TIMER.cpp */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B894126A222EA2E50020190B /* main.cpp in Sources */,
+				B8941277222EA49F0020190B /* SSE.cpp in Sources */,
+				B894127B222EA5150020190B /* TIMER.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
